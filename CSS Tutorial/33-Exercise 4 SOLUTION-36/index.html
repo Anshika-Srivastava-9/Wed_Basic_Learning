@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi color website</title>
+    <style>
+        /* @media only screen and (max-width:344px){
+            body{
+                color: var(--color);
+         }
+         ul li{
+           background-color: var(--semicolor);
+         }
+        nav p{
+            background-color: var(--semicolor);
+
+         }
+        } */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      :root{
+        --primary-color:rgba(176, 83, 213, 0.585);
+        --text-color:white;
+        --seccolor:rgba(226, 183, 244, 0.585);
+      }
+      body{
+        background-color:var(--seccolor)
+      }
+     ul{
+        display: flex;
+      }
+      nav ul li{
+        list-style-position: inside;
+      }
+      nav{
+        background-color:var(--primary-color)
+      }
+      ul li{
+        list-style-type:none;
+        padding: 8px;
+        margin: 4px;
+        color:var(--text-color)
+      }
+      ul li a{
+        text-decoration: none;
+        color:var(--text-color)
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+             <li><a href="/">About</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+
+    </nav>
+</body>
+</html>

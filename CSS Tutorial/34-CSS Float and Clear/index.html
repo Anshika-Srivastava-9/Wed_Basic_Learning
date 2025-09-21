@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        .cards{
+          border: 2px solid black;
+          display: flow-root;
+        }
+        .card{
+           border: 2px solid red;
+        }
+        img{
+            float: right;
+            border: 2px solid black;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+<div class="cards">
+    <img width="230px" src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D">
+    <div class="card"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias consequatur, officiis enim temporibus totam voluptate aliquam sapiente, tempore deserunt, in maxime obcaecati porro amet. Consectetur inventore cupiditate eveniet optio deserunt iusto necessitatibus, eius eos?</p></div>
+    
+    <div class="card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deserunt quae earum voluptatem dolore non ex ratione odio, ipsam minus error quaerat praesentium suscipit perspiciatis nesciunt possimus delectus soluta est quia? Obcaecati doloribus dignissimos earum veritatis soluta asperiores minus, aliquid nihil nam nobis cum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam aliquid accusantium quidem ea, veritatis asperiores ducimus error ipsum aspernatur dolorem eos modi distinctio, velit officiis aliquam quia fugiat hic dignissimos corrupti similique! Quae dolor inventore tempora blanditiis, modi voluptatum omnis voluptatem, culpa asperiores dolore officiis eveniet sint qui commodi fuga adipisci cumque quasi odit quis! Sapiente cumque perferendis adipisci in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid, voluptatum aperiam recusandae illo perferendis soluta! Accusantium molestias deleniti optio incidunt quo aut placeat aliquid sapiente magni laudantium, sed animi explicabo voluptate aperiam illum vitae commodi delectus sequi ut, dolorem veniam debitis illo voluptas veritatis! Officiis omnis necessitatibus quidem maxime fugiat, esse quos cumque dolores odit ipsam tenetur aliquam quia rem obcaecati sed, nostrum deserunt in suscipit possimus quasi molestias? Modi consequuntur omnis quasi laboriosam. Corporis hic id obcaecati quis!</culpa></p></div>
+    <div class="card">Card3</div>
+</div>
+</body>
+</html>

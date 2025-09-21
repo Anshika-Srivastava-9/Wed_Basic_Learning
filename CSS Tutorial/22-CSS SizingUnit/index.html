@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing</title>
+    <style>
+        html{
+            font-size: 12px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+           /* width: 1533px;*/
+           width: 80vw;
+           height: 10vh;
+            background-color: rgb(182, 237, 237);
+            margin: auto;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+           /* width: 1533px;*/
+           width: 80vw;
+           /*height: 80vh;*/
+            background-color: rgb(182, 237, 237);
+            margin: 23px auto;
+            min-height: 80vh;
+            /*font-size: 16px;*/
+        }
+        .container > div{
+            font-size: 1.7em; 
+            width: 50%;
+            border: 2px solid red;
+        }
+        .container> div >div{
+width: 50%;
+border: 2px solid blue;
+        }
+        .mycont{
+        color: rgb(19, 19, 1);
+        text-align: center;
+        box-sizing: border-box;
+        width: 80vmin;
+        margin: 23px auto;
+        border: 2px solid black;
+        font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box</div>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum. Repellat inventore quibusdam aliquid incidunt blanditiis quisquam! Dolor commodi quidem doloribus exercitationem totam fuga dicta tempore quae consequuntur aut dolore rem nemo laboriosam obcaecati fugiat beatae, deserunt sed odio neque maxime eveniet impedit doloremque architecto atque? Reprehenderit placeat velit magnam repudiandae ducimus a. Qui, ab dolorum 
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, cupiditate.</div>
+        </div>
+       </div>
+        <div class="mycont">I am another container. </div> 
+        </div>
+
+</body>
+</html>
