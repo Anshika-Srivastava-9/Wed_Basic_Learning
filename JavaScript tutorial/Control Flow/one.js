@@ -14,19 +14,36 @@
 // }
 
 
-const balance=1000
-// if (balance>500) log("User has enough balance"),
+// const balance=1000
+
+// if (balance>500) log("User has enough balance"),                      // short hand notation
 // console.log("User has no enough balance");
 
-if (balance>500) {
-    console.log("User has enough balance")
+
+// if (balance>500) {
+//     console.log("User has enough balance")
+// }
+// else if (balance<750) {
+//     console.log("User has medium balance")
+// }
+// else if (balance<1000) {
+//     console.log("User has low balance")
+// }
+// else{
+//     console.log("User has no enough balance")
+// }
+
+
+const UserLoggedIn=true
+const debitcard=true
+const loggedInFromGoogle=false
+const loggedInFromEmail=true
+
+if(UserLoggedIn && debitcard && 2==2){
+    console.log("Allow to buy course"); 
 }
-else if (balance<750) {
-    console.log("User has medium balance")
+if(loggedInFromGoogle || loggedInFromEmail){
+    console.log("User logged in");
+    
 }
-else if (balance<1000) {
-    console.log("User has low balance")
-}
-else{
-    console.log("User has no enough balance")
-}
+
